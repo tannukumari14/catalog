@@ -1,5 +1,4 @@
 // /app/login/page.js
-// "this is my login page"
 "use client";
 import "../globals.css";
 

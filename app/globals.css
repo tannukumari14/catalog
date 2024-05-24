@@ -5,7 +5,7 @@
 }
 
 
-/* search bar */
+/* movie_catalog search bar */
 .search {
   display: flex;
   justify-content: center;
@@ -21,6 +21,7 @@
   background-position: left;
   padding-left: 35px;
   font-family: "Iowan Old Style";
+  margin-top: 20px;
 }
 
 .go_button {
@@ -31,6 +32,7 @@
   border: 1px solid #E84848;
   width: 61px;
   height: 60px;
+  margin-top: 20px;
 }
 
 /*movie catalog  */
@@ -62,6 +64,8 @@
   height: 40px;
   width: 90px;
 }
+
+
 
 /* login */
 
@@ -118,13 +122,6 @@ input[type="password"] {
 }
 
 
-#signup{
-  background-color: #007bff;
-  color: white; 
-  width: 150px;
-  height: 40px;
-}
-
 #login{
   background-color: #007bff;
   color: white; 
@@ -132,8 +129,17 @@ input[type="password"] {
   height: 40px;
 }
 
+/* signup */
 
-/* globals.css or MovieFilter.css */
+#signup{
+  background-color: #007bff;
+  color: white; 
+  width: 150px;
+  height: 40px;
+}
+
+
+/* MovieFilter */
 .filter-section {
   margin: 20px;
 }
@@ -200,3 +206,5 @@ input[type="password"] {
 .link{
   color: #551a8b;
 }
+
+
